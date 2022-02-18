@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    //border:solid 1px red;
+}
+
+body{
+    display:flex;
+    font-family: serif;
+    height:100vh;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    justify-content:center;
+    margin:0;
+}
+
+.board{
+    background:white;
+    opacity:0.8;
+    align-item:center;
+    margin:auto;
+    border-radius:2em;
+    box-shadow:rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    padding:2em;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:5em;
+    margin:1em 0em;
+    padding:0 6em;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-item:center;
+    margin: 0;
+}
+
+blockquote{
+        font-size:3em;
+        margin: auto;
+}
+h1{
+    text-align:center;
+    font-size:3.5em;
+    margin: 0 auto;
+}
+h2{
+    font-size:3em;
+    margin: 0 auto;
+}
+h4{
+    font-size:2em;
+}
+label{
+    font-size: 1.5em; 
+}
+button{
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 2rem;    
+    font-weight: 500;
+    opacity:0.8;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+button:hover {
+    opacity:0.5;
+    transition: 0.6s;
+}
+
+button:active {
+    opacity:1;
+    transition: 0.4s;
+    transform: rotate(-1turn);
+    //transform: rotateZ(-10deg);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.4);
+}
+
+input[type=checkbox]{
+    width:1.3em;
+    height:1.3em;
+    cursor: pointer;
+}

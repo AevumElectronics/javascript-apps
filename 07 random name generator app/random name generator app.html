@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Name Generator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    </head>
+    <body> 
+        <div class="board">
+            <h1>Random Name Generator</h1>
+            <div class="menu">
+                <div class="options">
+                <label for="points">Length: </label><label for="points" id="numberlabel"></label>
+                <input type="range" id="points" name="points" min="3" max="14" value="5">
+                </div>
+                <div class="options">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Vowels</label>
+                </div>
+            </div>
+            <div class="panel">
+                <button onclick="copyname()"><i class="fa-regular fa-copy"></i></button>
+                <blockquote id="quote">Name-name-name</blockquote>
+                <button onclick="generatename(points.value)"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+        </div>
+    </body>
+</html>

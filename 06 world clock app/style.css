@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    //border:solid;
+}
+
+body{
+    display:flex;
+    font-family: serif;
+    height:100vh;
+    //align-item:center;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    justify-content:center;
+    margin:0;
+}
+
+.board{
+    background:white;
+    opacity:0.8;
+    //width:60%;
+    align-item:center;
+    margin:auto;
+    border-radius:2em;
+    box-shadow:rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    padding:2em;
+    //height:50vh;
+
+}
+.clockboards{
+    display: flex;
+    flex-wrap:wrap;
+    //flex-direction: column;
+    margin:1em 0;
+}
+
+.clockoblocko{
+    margin:0 2em;
+    align-items: center;
+    text-align:center;
+    //border:0;
+}
+.clockel{
+    //background: red;
+    margin:0;
+    border:0;
+}
+.time{
+    display: flex;
+    flex-wrap:wrap;
+    margin:0;
+}
+.city{
+    margin:0;
+    //border:0;
+}
+h1{
+    text-align:center;
+    font-size:3.5em;
+    margin: 0 auto;
+}
+h2{
+    font-size:3em;
+    margin: 0 auto;
+}
+h4{
+    font-size:2em;
+}
